@@ -18,5 +18,5 @@ function Rook(color){
 function ChessGame(board=defaultPosition, currentTurn='white', history=[]){
   this.currentTurn = Turn
   this.board = board
-
+  this.test = 'testing git'
 }
